@@ -1,2 +1,2 @@
 # codesCiphersAndSecretWriting
-This repo is for the experimentation of working strategies in cryptograms
+This repo is for the experimentation on working strategies in cryptograms

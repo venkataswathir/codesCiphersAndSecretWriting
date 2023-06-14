@@ -8,3 +8,9 @@ def keyWordCiphering(text: str, substitutes: str) -> str:
   return ''.join([substitutes[alphabets.index(ch)] for ch in text])
 
 print(keyWordCiphering('Rose', generateSubstitutes('THURSDAY', alphabets)))
+
+def deCiphering(text: str, substitutes: str) -> str:
+  text = ''.join(text.split()).upper()
+  return ''.join([alphabets[substitutes.index(ch)] for ch in text])
+
+print(deCiphering('vytoBNOYBN', generateSubstitutes('THURSDAY', alphabets)))
